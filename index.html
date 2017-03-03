@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=640,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="">
+    <meta name="format-detection" content="telephone=no">
+    <title></title>
+    <link rel="stylesheet" href="css/index.css"/>
+    <script type="text/javascript">
+        var phoneWidth = parseInt(window.screen.width);
+        var phoneScale = phoneWidth / 640;
+        var ua = navigator.userAgent;
+        if (/Android (\d+\.\d+)/.test(ua)) {
+            var version = parseFloat(RegExp.$1);
+            if (version > 2.3) {
+                document.write('<meta name="viewport" content="width=640, minimum-scale=' + phoneScale + ', maximum-scale=' + phoneScale + ', target-densitydpi=device-dpi">');
+            } else {
+                document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');
+            }
+        } else {
+            document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');
+        }
+    </script>
+</head>
+<body>
+ <div class="layout">
+     <!--头部开始-->
+     <div class="header">
+         <div class="header_logo">
+             <a href="#"> <img src="images/logo.png" alt=""/></a>
+         </div>
+         <!--nav-->
+         <div class="nav">
+             <ul>
+                 <li><a href="#">首页</a></li>|
+                 <li><a href="#">简介</a></li>|
+                 <li><a href="#">医师</a></li>|
+                 <li><a href="#">挂号</a></li>|
+                 <li><a href="#">地址</a></li>
+             </ul>
+         </div>
+
+     </div>
+     <!--头部结束-->
+
+     <!--内容开始-->
+     <div class="content">
+         <div class="tl">防聋治聋<i>精准服务</i></div>
+         <a href="#" class="a1">
+             <img src="images/banner1.png" class="img1" alt=""/>
+             <div class="t2 ">
+                 <div class="box clearFix">
+                     <div class="left">
+                         <img src="images/xing.png" alt=""/>
+                         <span>耳部检查<i>免费</i></span>
+                     </div>
+                     <div class="right">
+                         <img src="images/xing.png" alt=""/>
+                         <span>耳部治疗<i>减免<em>1000</em>元 </i></span>
+                     </div>
+                 </div>
+
+             </div>
+         </a>
+         <a href="#" class="a2">
+             <img src="images/banner2.png" alt=""/>
+         </a>
+         <div class="t3">
+             <ul class="clearFix">
+                 <li>
+                     <div class="h1">早发现</div>
+                     <div class="h2">DISCOVER EARLY</div>
+                 </li>
+                 <li>
+                     <div class="h1">早干预</div>
+                     <div class="h2">TREAT EARLY</div>
+                 </li>
+                 <li>
+                     <div class="h1">早康复</div>
+                     <div class="h2">RECOVER EARLY</div>
+                 </li>
+             </ul>
+             <div class="nr">
+                 <img src="images/b.png" alt="" class="img2"/>
+                 <ol>
+                     <li class="c1 l1"><a href="#">耳朵嗡嗡响</a></li>
+                     <li class="c2 l2"><a href="#">耳朵里面痒</a></li>
+                     <li class="c3 l3"><a href="#">耳朵听力下降</a></li>
+                     <li class="c3 l4"><a href="#">耳朵里面疼</a></li>
+                     <li class="c2 l5"><a href="#">耳朵流脓流黄水</a></li>
+                     <li class="c1 l6"><a href="#">耳道发炎</a></li>
+                 </ol>
+                 <div class="zj clearFix">
+                     <div class="left">
+                         专家<br/>
+                         寄语
+                     </div>
+                     <div class="right">
+                         <p class="p1">不少患者在病发初期并没有给予足够的重视，导致病情加重，许多患者由最初的耳鸣炎症渐渐发展成为耳聋或最终完全失聪。</p>
+                         <p class="p2">耳部检查<i>——迈出耳病防治的第一步</i></p>
+                     </div>
+                 </div>
+                 <a href="#" class="btn">
+                     <img src="images/cur.png" alt=""/>
+                     <em>点击免费检查</em>
+                  </a>
+             </div>
+
+         </div>
+         <div class="t4">
+             <img src="images/s.png" class="img"/>
+             <ul class="clearFix">
+                 <li class="l1"><a href="#"></a></li>
+                 <li class="l2"><a href="#"></a></li>
+                 <li class="l3"><a href="#"></a></li>
+             </ul>
+             <div class="bt">
+                 <div class="img1">越来越高发的耳部疾病</div>
+             </div>
+             <div class="a" >
+                 <a href="#" class="d1">
+                     <img src="images/xing.png" alt=""/>
+                     <i>耳聋</i>
+                 </a>
+                 <a href="#" class="d2">
+                     <img src="images/xing.png" alt=""/>
+                     <i>耳鸣</i>
+                 </a>
+                 <a href="#" class="d3">
+                     <img src="images/xing.png" alt=""/>
+                     <i>中耳炎</i>
+                 </a>
+                 <a href="#" class="d4">
+                     <img src="images/xing.png" alt=""/>
+                     <i>鼓膜穿孔</i>
+                 </a>
+                 <a href="#" class="d5">
+                     <img src="images/cur.png" alt=""/>
+                     <i>点击查看更多</i>
+                 </a>
+             </div>
+         </div>
+         <div class="t5">
+             <img src="images/h1.png" class="img" alt="">
+             <div class="jc clearFix">
+                 <div class="left">
+                     <h1>耳部检查</h1>
+                     <p>耳纤维内镜检查、声导抗测听、纯因听阈测定。这3项检查是判断耳部疾病的重要依据。</p>
+                 </div>
+                 <div class="right">
+                     <h1>耳部治疗</h1>
+                     <p>耳部手术治疗、保守治疗都是科学诊疗的方法之一。</p>
+                 </div>
+             </div>
+             <div class="btn clearFix">
+                 <a href="#" class="btn1">免费</a>
+                 <a href="#" class="btn2">减免500~1000元</a>
+             </div>
+             <div class="xq"><a href="http://map.baidu.com/?shareurl=1&poiShareUid=0ce65c2df17e83402d473355"><img src="images/cur.png" alt="">点击了解优惠详情</a></div>
+         </div>
+         <div class="t6">
+             <img src="images/titl1.png" class="img1" alt=""/>
+         </div>
+     </div>
+     <!--内容结束-->
+
+     <!--尾部开始-->
+     <div class="footer"></div>
+     <!--尾部结束-->
+ </div>
+
+
+</body>
+</html>
